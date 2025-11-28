@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Jamie's professional portfolio showcasing web development projects, skills, and experience. Specializing in modern web technologies and user-friendly design.">
+    <meta name="keywords" content="web developer, portfolio, JavaScript, HTML, CSS, frontend development">
+    <meta name="author" content="Jamie">
+    <title>Jamie - Web Developer Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <!-- Header and Navigation -->
+    <header>
+        <nav role="navigation" aria-label="Main navigation">
+            <div class="logo">
+                <h1>Jamie</h1>
+            </div>
+            <button class="hamburger" aria-label="Toggle navigation menu" aria-expanded="false">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="#about-me">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- About Me Section -->
+        <section id="about-me" class="about-section">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <img src="images/portrait-smiling-handsome-man-eyeglasses_171337-4853.avif" alt="Professional headshot of Jamie, web developer" class="profile-image">
+                <p>
+                    Hello! I'm Jamie, a passionate web developer with expertise in creating modern, 
+                    accessible, and user-friendly websites. I specialize in frontend development using 
+                    HTML, CSS, and JavaScript, with a strong focus on responsive design and web accessibility. 
+                    I'm dedicated to writing clean, maintainable code and staying up-to-date with the latest 
+                    web technologies and best practices.
+                </p>
+                <p>
+                    When I'm not coding, I enjoy learning new technologies, contributing to open-source projects, 
+                    and sharing knowledge with the developer community.
+                </p>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects-section">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+                <article class="project-card">
+                    <figure>
+                        <img src="images/1_amazon.png" alt="Screenshot of E-commerce website showing product gallery and shopping cart interface" class="project-image">
+                        <figcaption>
+                            <h3>Amazon Clone</h3>
+                            <p>
+                                Developed a fully functional Amazon clone featuring product search, 
+                                category navigation, and dynamic product listings. Implemented responsive 
+                                design with mobile-first approach and integrated shopping cart functionality.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">HTML5</span>
+                                <span class="tech-tag">CSS3</span>
+                                <span class="tech-tag">JavaScript</span>
+                                <span class="tech-tag">REST API</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="btn-primary" aria-label="View E-Commerce Website live demo">Live Demo</a>
+                                <a href="#" class="btn-secondary" aria-label="View E-Commerce Website source code on GitHub">GitHub</a>
+                            </div>
+                        </figcaption>
+                    </figure>
+                </article>
+
+                <article class="project-card">
+                    <figure>
+                        <img src="images/22-Mr-Porter-1344x720.webp" alt="Screenshot of weather dashboard displaying current conditions and 5-day forecast with interactive map" class="project-image">
+                        <figcaption>
+                            <h3>Mr Porter Luxury Store</h3>
+                            <p>
+                                Created a high-end fashion e-commerce site inspired by Mr Porter. Features 
+                                elegant product displays, filtering by brand and category, and a sophisticated 
+                                checkout experience with size selection and wishlist functionality.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">React</span>
+                                <span class="tech-tag">CSS Grid</span>
+                                <span class="tech-tag">JavaScript</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="btn-primary" aria-label="View Weather Dashboard live demo">Live Demo</a>
+                                <a href="#" class="btn-secondary" aria-label="View Weather Dashboard source code on GitHub">GitHub</a>
+                            </div>
+                        </figcaption>
+                    </figure>
+                </article>
+
+                <article class="project-card">
+                    <figure>
+                        <img src="images/image20-64-1024x496.png" alt="Screenshot of task management app showing organized task lists with drag and drop functionality" class="project-image">
+                        <figcaption>
+                            <h3>Appliances Online Store</h3>
+                            <p>
+                                Built an e-commerce platform for home appliances featuring detailed product 
+                                specifications, comparison tools, and advanced search filters. Implemented 
+                                product reviews, rating system, and real-time inventory management.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">JavaScript</span>
+                                <span class="tech-tag">HTML5</span>
+                                <span class="tech-tag">Responsive Design</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="btn-primary" aria-label="View Task Management App live demo">Live Demo</a>
+                                <a href="#" class="btn-secondary" aria-label="View Task Management App source code on GitHub">GitHub</a>
+                            </div>
+                        </figcaption>
+                    </figure>
+                </article>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills-section">
+            <h2>Skills</h2>
+            <div class="skills-content">
+                <article class="skill-category">
+                    <h3>Frontend Development</h3>
+                    <ul>
+                        <li>HTML5 & Semantic HTML</li>
+                        <li>CSS3, Flexbox & Grid</li>
+                        <li>JavaScript (ES6+)</li>
+                        <li>React.js</li>
+                        <li>Responsive Web Design</li>
+                        <li>TypeScript</li>
+                    </ul>
+                </article>
+
+                <article class="skill-category">
+                    <h3>Tools & Technologies</h3>
+                    <ul>
+                        <li>Git & GitHub</li>
+                        <li>VS Code</li>
+                        <li>npm & Webpack</li>
+                        <li>REST APIs</li>
+                        <li>Chrome DevTools</li>
+                        <li>Figma</li>
+                    </ul>
+                </article>
+
+                <article class="skill-category">
+                    <h3>Best Practices</h3>
+                    <ul>
+                        <li>Web Accessibility (WCAG)</li>
+                        <li>SEO Optimization</li>
+                        <li>Cross-browser Compatibility</li>
+                        <li>Performance Optimization</li>
+                        <li>Mobile-first Design</li>
+                        <li>Agile Methodology</li>
+                    </ul>
+                </article>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+            <h2>Contact Me</h2>
+            <p class="contact-intro">
+                I'd love to hear from you! Whether you have a project in mind, want to collaborate, 
+                or just want to say hello, feel free to reach out.
+            </p>
+            <form class="contact-form" action="/submit-form" method="POST">
+                <div class="form-group">
+                    <label for="name">Name <span aria-label="required">*</span></label>
+                    <input 
+                        type="text" 
+                        id="name" 
+                        name="name" 
+                        required 
+                        aria-required="true"
+                        placeholder="Your full name"
+                    >
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email <span aria-label="required">*</span></label>
+                    <input 
+                        type="email" 
+                        id="email" 
+                        name="email" 
+                        required 
+                        aria-required="true"
+                        placeholder="your.email@example.com"
+                    >
+                </div>
+
+                <div class="form-group">
+                    <label for="subject">Subject <span aria-label="required">*</span></label>
+                    <input 
+                        type="text" 
+                        id="subject" 
+                        name="subject" 
+                        required 
+                        aria-required="true"
+                        placeholder="What is this regarding?"
+                    >
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message <span aria-label="required">*</span></label>
+                    <textarea 
+                        id="message" 
+                        name="message" 
+                        rows="6" 
+                        required 
+                        aria-required="true"
+                        placeholder="Tell me about your project or inquiry..."
+                    ></textarea>
+                </div>
+
+                <button type="submit" class="btn-submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2025 Jamie. All rights reserved.</p>
+            <div class="social-links" role="navigation" aria-label="Social media links">
+                <a href="https://github.com/yourusername" aria-label="Visit my GitHub profile" target="_blank" rel="noopener noreferrer">
+                    <span class="sr-only">GitHub</span>
+                    <!-- GitHub icon would go here -->
+                </a>
+                <a href="https://linkedin.com/in/yourusername" aria-label="Visit my LinkedIn profile" target="_blank" rel="noopener noreferrer">
+                    <span class="sr-only">LinkedIn</span>
+                    <!-- LinkedIn icon would go here -->
+                </a>
+                <a href="https://twitter.com/yourusername" aria-label="Visit my Twitter profile" target="_blank" rel="noopener noreferrer">
+                    <span class="sr-only">Twitter</span>
+                    <!-- Twitter icon would go here -->
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
